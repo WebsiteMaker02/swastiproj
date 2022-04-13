@@ -310,7 +310,8 @@ h1, h2, h3, h4, h5,
   background-color: #c9ccd4; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 8em 0; } }
+      /*padding: 8em 0; */
+	  } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
@@ -376,7 +377,9 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: rgba(33, 50, 59, 0.9); }
+      /*background: rgba(33, 50, 59, 0.9); */
+	  background: #004892c2;
+	  }
   .bg-image.overlay-primary {
     position: relative; }
     .bg-image.overlay-primary:after {
@@ -388,7 +391,9 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: #f7107d}
+      /*background: #f7107d*/
+	  background:#f7107d8c
+	  }
   .bg-image > .container {
     position: relative;
     z-index: 1; }
@@ -833,7 +838,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
 
 .site-section {
-  padding: 7rem 0; }
+  padding: 4rem 0 4rem 0; }
   @media (max-width: 991.98px) {
     .site-section {
       padding: 3rem 0; } }
@@ -1645,10 +1650,13 @@ h1, h2, h3, h4, h5,
   .box-92819 h1 {
     font-weight: 900 !important;
     font-size: 5rem;
-    font-family: "Mansalva", cursive !important; }
+    /*font-family: "Mansalva", cursive !important; */
+	font-family: "Comic Sans MS";
+	}
 
 .text-cursive {
-  font-family: "Mansalva", cursive !important; }
+  /*font-family: "Mansalva", cursive !important; */
+font-family: "Comic Sans MS"; }
 
 .media-02819 {
   margin-bottom: 60px; }
