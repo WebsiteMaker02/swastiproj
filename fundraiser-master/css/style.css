@@ -1738,9 +1738,11 @@ font-family: "Comic Sans MS"; }
         height: 100%;
         mix-blend-mode: screen; }
     .feature-29192-wrap .feature-29192.overlay-danger:before {
-      background-color: #dc3545; }
+      /* background-color: #dc3545; } */
+	  background-color: #e7d3460d; }
     .feature-29192-wrap .feature-29192.overlay-success:before {
-      background-color: #ffc107; }
+      /* background-color: #ffc107; } */
+	  background-color: #88828f; }
     .feature-29192-wrap .feature-29192.overlay-warning:before {
       background-color: #0308aa; }
   .feature-29192-wrap .text {
